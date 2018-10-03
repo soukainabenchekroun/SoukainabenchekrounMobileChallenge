@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB5F685C216438EE009970DC /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5F685B216438EE009970DC /* item.swift */; };
+		ABA1791F216411B70078A6E4 /* items.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1791E216411B70078A6E4 /* items.swift */; };
 		ABD790CA2163FFBB00FDB496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD790C92163FFBB00FDB496 /* AppDelegate.swift */; };
 		ABD790CC2163FFBB00FDB496 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD790CB2163FFBB00FDB496 /* FirstViewController.swift */; };
 		ABD790CE2163FFBB00FDB496 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD790CD2163FFBB00FDB496 /* SecondViewController.swift */; };
@@ -15,6 +17,8 @@
 		ABD790D62163FFBC00FDB496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD790D42163FFBC00FDB496 /* LaunchScreen.storyboard */; };
 		ABD790E12163FFBC00FDB496 /* SoukainabenchekrounMobileChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD790E02163FFBC00FDB496 /* SoukainabenchekrounMobileChallengeTests.swift */; };
 		ABD790EC2163FFBC00FDB496 /* SoukainabenchekrounMobileChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD790EB2163FFBC00FDB496 /* SoukainabenchekrounMobileChallengeUITests.swift */; };
+		ABD790FA216402AD00FDB496 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD790F9216402AD00FDB496 /* RepoTableViewCell.swift */; };
+		ABD790FE2164061700FDB496 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD790FD2164061700FDB496 /* Owner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB5F685B216438EE009970DC /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
+		ABA1791E216411B70078A6E4 /* items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = items.swift; sourceTree = "<group>"; };
 		ABD790C62163FFBB00FDB496 /* SoukainabenchekrounMobileChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoukainabenchekrounMobileChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD790C92163FFBB00FDB496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABD790CB2163FFBB00FDB496 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,8 @@
 		ABD790E72163FFBC00FDB496 /* SoukainabenchekrounMobileChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoukainabenchekrounMobileChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD790EB2163FFBC00FDB496 /* SoukainabenchekrounMobileChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoukainabenchekrounMobileChallengeUITests.swift; sourceTree = "<group>"; };
 		ABD790ED2163FFBC00FDB496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD790F9216402AD00FDB496 /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
+		ABD790FD2164061700FDB496 /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB781AFF21647F800005EAC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F685B216438EE009970DC /* item.swift */,
+				ABA1791E216411B70078A6E4 /* items.swift */,
+				ABD790FD2164061700FDB496 /* Owner.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB781B0021647FAB0005EAC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ABD790CF2163FFBB00FDB496 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB781B0121647FE10005EAC4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ABD790CB2163FFBB00FDB496 /* FirstViewController.swift */,
+				ABD790CD2163FFBB00FDB496 /* SecondViewController.swift */,
+				ABD790F9216402AD00FDB496 /* RepoTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		ABD790BD2163FFBB00FDB496 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +135,10 @@
 		ABD790C82163FFBB00FDB496 /* SoukainabenchekrounMobileChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				AB781B0121647FE10005EAC4 /* Controller */,
+				AB781B0021647FAB0005EAC4 /* View */,
+				AB781AFF21647F800005EAC4 /* Model */,
 				ABD790C92163FFBB00FDB496 /* AppDelegate.swift */,
-				ABD790CB2163FFBB00FDB496 /* FirstViewController.swift */,
-				ABD790CD2163FFBB00FDB496 /* SecondViewController.swift */,
-				ABD790CF2163FFBB00FDB496 /* Main.storyboard */,
 				ABD790D22163FFBC00FDB496 /* Assets.xcassets */,
 				ABD790D42163FFBC00FDB496 /* LaunchScreen.storyboard */,
 				ABD790D72163FFBC00FDB496 /* Info.plist */,
@@ -260,8 +296,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABD790CE2163FFBB00FDB496 /* SecondViewController.swift in Sources */,
+				ABD790FE2164061700FDB496 /* Owner.swift in Sources */,
+				ABA1791F216411B70078A6E4 /* items.swift in Sources */,
 				ABD790CA2163FFBB00FDB496 /* AppDelegate.swift in Sources */,
+				AB5F685C216438EE009970DC /* item.swift in Sources */,
 				ABD790CC2163FFBB00FDB496 /* FirstViewController.swift in Sources */,
+				ABD790FA216402AD00FDB496 /* RepoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
